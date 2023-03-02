@@ -36,4 +36,4 @@ The dataset  has 23 categories of skin diseases with a total of 19500 pictures a
 ##### Local Predict Test:
 
 
-![](project_3_Local_%20app_test.gif)
+![](images/project_3_Local_%20app_test.gif)
