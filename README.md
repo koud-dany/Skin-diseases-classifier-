@@ -28,11 +28,6 @@ The dataset  has 23 categories of skin diseases with a total of 19500 pictures a
  <br>
 
 
-<h3>issue</h3>
-<br>
-
--The app is running fine on the local computer and give the accurate prediction for the 4 classes model, but on Heroku, it runs into Error 500 when trying to give the prediction 
-
 ##### Local Predict Test:
 
 
