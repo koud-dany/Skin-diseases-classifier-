@@ -1,12 +1,21 @@
-# **Project_3_ML**
+# **Skin Diseases classifier**
 
 
 ## **A mark of distinction or commonality-Skin disease imagery prediction**
 <hr/>
 <br>
+<h3>Info</h3>
+Our skin has been deemed the largest organ of the human body.  Skin disease varies from mild conditions that may affect only appearance to severe incapacitation.
 
-  **Project Description**: 
-Our skin has been deemed the largest organ of the human body.  Skin disease varies from mild conditions that may affect only appearance to severe incapacitation.  The application will utilize predictive analysis to identify an associated skin disease to aid in treatment.
+<br>
+
+<h3>Demo app </h3>
+<hr>
+<br>
+
+![](images/project_3_Local_%20app_test.gif)
+
+ <br> The application will utilize predictive analysis to identify an associated skin disease to aid in treatment.
 
 <h3>Data Source</h3>
 <hr/>
@@ -28,12 +37,26 @@ The dataset  has 23 categories of skin diseases with a total of 19500 pictures a
  <br>
 
 
-<h3>issue</h3>
-<br>
+<h3>Steps </h3>
+<ul>
+<li>Load & convert images into arrays </li>
 
--The app is running fine on the local computer and give the accurate prediction for the 4 classes model, but on Heroku, it runs into Error 500 when trying to give the prediction 
+![](images/toarray.jpg)
+
+![](images/array_img.jpg)
+
+![](images/Screenshot1.jpg)
+
+<li>scale image array from 0 to 1</li>
+<li>build model</li>
+
+![](images/mod.jpg)
+</ul>
+Model accuracy : <hr>
+
+![](images/acc.jpg)
+
 
 ##### Local Predict Test:
 
-
-![](project_3_Local_%20app_test.gif)
+![](images/test.jpg)
